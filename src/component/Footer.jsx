@@ -8,7 +8,7 @@ import Insta from "../assets/icon/Insta";
 export default function Footer() {
   return (
     <div className="bg-[#222831] items-center pt-4">
-      <div className="text-white flex ml-[496px] gap-7">
+      <div className="text-white flex mx-40 gap-7 lg:ml-[496px]">
         <div className="flex gap-2">
           <Rumah />
           <a href="#Home">Home</a>
@@ -18,7 +18,7 @@ export default function Footer() {
           <a href="#About">User</a>
         </div>
       </div>
-      <div className="flex ml-[538px] mt-5 gap-7">
+      <div className="flex mx-48 mt-5 gap-7 lg:mx-[538px]">
         <button
           type="button"
           className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-md"
